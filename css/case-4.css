@@ -61,7 +61,7 @@ body {
   justify-content: center;
 }
 
-/* .section-2 > .text {
+.section-2 > .text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -71,4 +71,4 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-} */
+}
