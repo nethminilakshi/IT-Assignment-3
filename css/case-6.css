@@ -30,7 +30,7 @@ body {
 }
 
 .box4 {
-  background-color: rgb(177, 11, 177);
+  background-color: rgb(124, 14, 124);
 }
 
 .box5 {
@@ -38,7 +38,7 @@ body {
 }
 
 .box6 {
-  background-color: rgb(54, 116, 209);
+  background-color: rgb(13, 65, 209);
 }
 
 .box7 {
@@ -47,6 +47,6 @@ body {
 
 .box8 {
   grid-column: 2/4;
-  grid-row: 3/4;
-  background-color: rgb(79, 17, 107);
+  /* grid-row: 3/4; */
+  background-color: rgb(62, 5, 128);
 }

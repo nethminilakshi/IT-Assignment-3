@@ -55,7 +55,7 @@ section {
 
 .side-nav > ul > li {
   list-style: none;
-  padding: 8px 0px;
+  padding: 6px 0px;
 }
 
 .side-nav > ul > li > a {
@@ -72,7 +72,7 @@ section {
   height: fit-content;
   min-height: 85vh;
   background-color: white;
-  padding: 5px 10px;
+  padding: 4px 10px;
 }
 
 .image-container {
@@ -81,9 +81,30 @@ section {
   justify-content: center;
 }
 
-.monkey-image {
+.monkey-gif {
   border: 1px solid green;
   display: flex;
   width: 33.3%;
-  height: 180px;
+  /* height: 216px; */
+  padding: 0px;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(104, 104, 104);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > p {
+  font-size: 1rem;
+  text-align: center;
+  color: white;
 }
