@@ -1,74 +1,89 @@
 body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
-.header {
-  position: relative;
+header {
   width: 100%;
-  height: 65px;
-  border: solid #000000;
-  border: 1px 1px 3px 1px;
+  height: 60px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
 }
-.header nav {
-  position: absolute;
-  top: 2px;
-  right: 20px;
+
+.logo {
+  width: 90px;
+  height: 50px;
+  margin-left: 20px;
 }
-.header nav ul {
-  list-style-type: none;
+
+.nav-bar > ul {
+  list-style: none;
   display: flex;
 }
-.header nav ul li a {
-  display: block;
+
+.nav-bar > ul > li {
+  margin-right: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0px 10px;
+}
+
+.nav-bar > ul > li > a {
+  text-decoration: none;
   color: black;
-  font-weight: 700;
-
-  padding: 20px 16px;
-  text-decoration: none;
 }
 
-.sidebar {
+section {
+  position: relative;
+  display: flex;
+  height: fit-content;
+  background-color: rgb(58, 1, 112);
+}
+.side-bar {
+  width: 20%;
+  height: 100%;
+}
+
+.side-nav {
   position: absolute;
-  top: 70px;
-  left: 0px;
-  bottom: 0px;
-  padding: 10px;
-  width: 15%;
-  height: 100vh;
-  background-color: rgb(97, 47, 138);
+  top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
-ul {
-  margin: 0px;
+
+.side-nav > ul > li {
+  list-style: none;
+  padding: 8px 0px;
 }
-.sidebar ul {
-  padding: 12px;
-  list-style-type: none;
-}
-.sidebar ul li a {
-  margin: 10px 0;
-  color: white;
-  font-size: 18px;
+
+.side-nav > ul > li > a {
   text-decoration: none;
-  padding: 5px;
-  display: block;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 400;
 }
 
 .content {
-  position: absolute;
-  top: 70px;
-  left: 17vw;
-  height: 100%;
-  flex-grow: 1;
+  position: relative;
+  margin-top: 5px;
+  width: 80%;
+  height: fit-content;
+  min-height: 85vh;
+  background-color: white;
+  padding: 5px 10px;
 }
-.contect-videos {
+
+.image-container {
+  width: 100%;
   display: flex;
   justify-content: center;
-  margin: 3px 4px;
-  /* flex-wrap: wrap; */
 }
-video {
-  width: 365px;
-  height: 250px;
-  object-fit: cover;
+
+.monkey-image {
   border: 1px solid green;
+  display: flex;
+  width: 33.3%;
+  height: 180px;
 }
